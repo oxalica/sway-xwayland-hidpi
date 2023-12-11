@@ -1,0 +1,63 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1702151865,
+        "narHash": "sha256-9VAt19t6yQa7pHZLDbil/QctAgVsA66DLnzdRGqDisg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "666fc80e7b2afb570462423cb0e1cf1a3a34fedd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "wlroots-hidpi-xprop-git": "wlroots-hidpi-xprop-git",
+        "xorg-xwayland-hidpi-xprop": "xorg-xwayland-hidpi-xprop"
+      }
+    },
+    "wlroots-hidpi-xprop-git": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1698386614,
+        "narHash": "sha256-rO4hEmDG5fHRtmr5AZTUE16onqoV8myW10xCsVSAis0=",
+        "ref": "HEAD",
+        "rev": "53aa9d79188def611daffcf33d194509238e1823",
+        "revCount": 10,
+        "type": "git",
+        "url": "https://aur.archlinux.org/wlroots-hidpi-xprop-git.git"
+      },
+      "original": {
+        "ref": "HEAD",
+        "type": "git",
+        "url": "https://aur.archlinux.org/wlroots-hidpi-xprop-git.git"
+      }
+    },
+    "xorg-xwayland-hidpi-xprop": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1698218166,
+        "narHash": "sha256-jIvsjTO2goU7W6rrMDuJPWsVOC1GUd6aFyV+bRGG1tM=",
+        "ref": "HEAD",
+        "rev": "f6c6d0af4c64d520923481bbe5fc3fd6243385ab",
+        "revCount": 18,
+        "type": "git",
+        "url": "https://aur.archlinux.org/xorg-xwayland-hidpi-xprop.git"
+      },
+      "original": {
+        "ref": "HEAD",
+        "type": "git",
+        "url": "https://aur.archlinux.org/xorg-xwayland-hidpi-xprop.git"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

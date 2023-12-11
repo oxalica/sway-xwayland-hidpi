@@ -1,0 +1,10 @@
+[sway-git]
+src.git = "https://github.com/swaywm/sway"
+fetch.github = "swaywm/sway"
+
+[wlroots-git]
+# Workaround: This is the last commit compatible with libdrm 2.4.117 in nixpkgs.
+# Wait for https://github.com/NixOS/nixpkgs/pull/273402.
+src.manual = "395a08f5d19151b6a1a6e788c9f112a00953ec37"
+# src.git = "https://gitlab.freedesktop.org/wlroots/wlroots.git"
+fetch.git = "https://gitlab.freedesktop.org/wlroots/wlroots.git"
